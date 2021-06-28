@@ -1,0 +1,45 @@
+.task .description{
+    margin-left: 1rem;
+}
+.task .due-date{
+    flex: 3;
+}
+.task .location{
+    flex: 3;
+}
+
+main{
+    display: flex;
+}
+
+#list{
+    flex: 4;
+    align-items: center;
+}
+
+#capture-form{
+    flex: 3;
+    margin-right: 7rem;
+}
+
+.task{
+    display: flex;
+    background-color: white;
+    text-align:center;
+    margin-right: 20rem;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#btnSave{
+    background-color: rgb(149, 110, 255);
+    width: 200px;
+    margin: 10px auto;
+}
+
+body {
+    background-image: url(/color.jpg);
+    background-size:cover;
+    background-color: #618bff;
+    background-repeat: no-repeat, repeat
+   }
